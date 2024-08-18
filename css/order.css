@@ -26,16 +26,19 @@ place-items: center;
 main{
     background-color:var(--Very-pale-blue);
     border-radius: 24px;
-    max-width: 30%;
-    margin-top: 100px;
+    max-width: 25%;
+    margin-top: 50px;
+    margin-bottom: 40px;
     text-align: center;
-   
+    height: 500px;
 }
 
 .img {
-    border-radius: 24px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     max-width: 100%;
     display: block;
+    padding-bottom: 30px;
 }
 
 /* .annual_plan{
@@ -53,12 +56,54 @@ main{
     cursor: pointer;
 }
 
+.but {
+    padding-bottom: 30px;
+
+}
+
 .but button :hover {
     opacity: 0.7;
 }
 
-section .annual_plan {
-margin: 20px auto;
+.annual_plan {
+/* margin: 20px auto; */
 display: flex;
+align-items: center;
 justify-content: space-between;
+padding-bottom: 15px;
+padding-top: 10px;
+padding-left:40px ;
+padding-right: 40px;
+background-color: var(--Pale-blue);
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+border-radius: 8px;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.icon {
+ max-width: 20%;
+ max-height: 20%;
+}
+
+.cancel_order .press {
+    border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.note {
+text-align: center;
+padding-bottom: 20px;
+}
+
+h1 {
+    padding-bottom: 30px;
 }
