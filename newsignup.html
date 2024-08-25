@@ -20,30 +20,36 @@
         <section class="input_details">
 
             <div class="fullname">
-                <label for="fname">Full Name</label>
+                <label for="fname" id="fname">Full Name</label>
                  <input type="text" class="fullname" placeholder="enter fullname">
             </div>
 
             <div class="email">
-                <label for="fname">Email Address</label>
-                 <input type="email" class="email" placeholder="enter email">
+                <label for="fname" id="email">Email Address</label>
+                 <div class="mail">
+                    <input type="email" class="email" id="mail" placeholder="enter email">
+                 <i class="fa-solid fa-at"></i>
+                 </div>
             </div>
 
             <div class="password">
-                <label for="password">Enter Passwor</label>
-                 <input type="password" class="password" placeholder="enter password">
+                <label for="password" id="password">Enter Password</label>
+                 <div class="sign"><input type="password" class="password" id="sign" placeholder="enter password">
+                    <i class="fa-regular fa-eye-slash"></i>
+                </div>
             </div>
 
-            <div class="DS">
+            <div class="ds">
 
-                <div class="DOB">
+                <div class="dob">
                     <label for="DOB">Date of Birth</label>
                      <input type="date" class="date">
                 </div>
     
-                <div class="SEX">
-                    <label for="Sex">Sex</label>
+                <div class="sex">
+                    <label for="sex">Sex</label>
                      <select name="Sex" id="Sex">
+                        <option value="male"></option>
                         <option value="male">male</option>
                         <option value="female">female</option>
                      </select>
@@ -58,7 +64,12 @@
                 </div>
 
                 <div class="country">
-                    <select name="country" id="country">country</select>
+                    <label for="country">country</label>
+                     <select name="country" id="country">
+                        <option value="country"></option>
+                        <option value="country"></option>
+                        <option value="country"></option>
+                     </select>
                 </div>
 
             </div>
@@ -66,13 +77,11 @@
             <div class="agree"><input type="checkbox"> <p>I agree to Language Academy  <a href="">Terms</a> and <a href="">Condition</a></p></div>
 
             <button>Sign Up</button>
-            <p>or</p>
-
+            <p class="or">or</p>
             <div class="social">
                 <i class="fa-brands fa-google"></i>
                 <i class="fa-brands fa-facebook-f"></i>
             </div>
-
 
 
         </section>

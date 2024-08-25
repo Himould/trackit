@@ -8,11 +8,96 @@ body {
     background-color: rgb(228, 232, 232);
     display: grid;
     place-items: center;
-    height: 100vh;
+    height: 500px;
 }
 
 main {
     background-color: white;
-    max-height: 100%;
-    
+
+}
+
+.heading {
+    display: block;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: grid;
+    gap: 7px;
+}
+
+.input_details {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#fname,#email,#password {
+    display: block;
+}
+.fullname .fullname, .email .email, .password .password {
+    display: block;
+    border: 1px solid rgb(214, 201, 26);
+    background-color: rgb(249, 244, 244);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.dob label {
+    display: block;
+}
+.sex label {
+    display: block;
+}
+
+.ds, .pc {
+   display: flex; 
+   justify-content: space-between;
+}
+
+.phone label, .country label {
+    display: block;
+}
+
+.dob input, .sex select, .phone input, .country select {
+    padding: 5px;
+    margin-top:5px ;
+    width: 100px; 
+    border-radius: 3px; 
+    border: 1px solid rgb(214, 201, 26);
+    background-color: rgb(249, 244, 244); 
+}
+.agree {
+    display: flex;
+}
+button {
+    background-color: rgb(250, 109, 15);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+.or {
+    text-align: center;
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+.sign {
+    display: flex;
+    align-items: center;
+}
+#sign {
+    margin-right: -25px;
+}
+.mail {
+    display: flex;
+    align-items: center;
+}
+#mail {
+    margin-right: -25px;
 }
